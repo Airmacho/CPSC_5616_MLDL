@@ -36,7 +36,3 @@ The first assignment focuses on implementing linear regression, a fundamental te
 - Visualize the results and analyze the relationship between input features and target variable
 
 To access the assignment notebook, navigate to the `Assignment_1` directory and open the `C1_W2_Linear_Regression.ipynb` file.
-
----
-
-Feel free to customize the content further to match your specific course requirements and preferences.
