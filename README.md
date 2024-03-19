@@ -36,3 +36,16 @@ The first assignment focuses on implementing linear regression, a fundamental te
 - Visualize the results and analyze the relationship between input features and target variable
 
 To access the assignment notebook, navigate to the `Assignment_1` directory and open the `C1_W2_Linear_Regression.ipynb` file.
+
+## Assignment 2: Linear Regression
+
+The second assignment focuses on using neural networks for handwritten digit recognition, specifically digits 0-9.
+
+- Introduced the Rectified Linear Unit (ReLU) activation function for non-linearity in neural networks.
+- Utilized the softmax function to convert output values into a probability distribution for multiclass classification.
+- Implemented a neural network for recognizing handwritten digits 0-9 using TensorFlow.
+- Worked with a dataset of 5000 training examples of 20x20 grayscale images unrolled into a 400-dimensional vector.
+- Demonstrated creating a NumPy implementation of the softmax function for converting values to a probability distribution.
+- Examined the neural network model representation with two dense layers and an output layer tailored for digit recognition.
+
+To access the assignment notebook, navigate to the `Assignment_2` directory.
