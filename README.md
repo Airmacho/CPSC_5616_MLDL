@@ -49,3 +49,19 @@ The second assignment focuses on using neural networks for handwritten digit rec
 - Examined the neural network model representation with two dense layers and an output layer tailored for digit recognition.
 
 To access the assignment notebook, navigate to the `Assignment_2` directory.
+
+## Assignment 3: Decision Trees
+
+The third assignment centers around creating a decision tree using the provided dataset. The procedure for constructing the decision tree is detailed as follows:
+
+1. Entropy Calculation:
+Develop a utility function named calculate_entropy to evaluate the entropy (representing impurity) at a given node.
+
+2. Dataset Partitioning:
+Establish a function named partition_dataset to segment the data at a node into left and right branches based on a chosen feature.
+
+3. Information Gain Computation:
+Implement a function to determine the information gain achieved by splitting on a particular feature.
+
+4. Feature Selection:
+Identify the feature that yields the maximum information gain to effectively partition nodes and construct the decision tree.
