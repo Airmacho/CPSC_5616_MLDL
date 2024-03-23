@@ -65,3 +65,23 @@ Implement a function to determine the information gain achieved by splitting on 
 
 4. Feature Selection:
 Identify the feature that yields the maximum information gain to effectively partition nodes and construct the decision tree.
+
+## Assignment 4: K-means Clustering
+
+The assignment introduces the K-means algorithm for clustering data points together. It involves starting with a sample dataset to understand the algorithm and then using it for image compression by reducing the number of colors in an image.
+
+- **Implementing K-means**:
+  - The algorithm iteratively assigns data points to centroids and refines these assignments based on the mean of the points assigned to each centroid.
+  - The process involves initializing centroids, assigning examples to the closest centroids, and updating centroids based on these assignments.
+
+- **Finding Closest Centroids**:
+  - In this phase, each training example is assigned to its closest centroid based on Euclidean distance.
+  - The function `find_closest_centroids` computes these assignments by minimizing the Euclidean distance between data points and centroids.
+
+- **Computing Centroid Means**:
+  - After assigning points to centroids, the algorithm recomputes the mean of points assigned to each centroid.
+  - The function `compute_centroids` calculates new centroids by computing the mean of points assigned to each centroid.
+
+- **K-means on a Sample Dataset**:
+  - The K-means algorithm is applied to a toy 2D dataset after implementing the two functions.
+  - The algorithm runs iteratively, visualizing the progress at each iteration to demonstrate how K-means works effectively.
