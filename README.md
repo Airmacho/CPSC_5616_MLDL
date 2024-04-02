@@ -85,3 +85,15 @@ The assignment introduces the K-means algorithm for clustering data points toget
 - **K-means on a Sample Dataset**:
   - The K-means algorithm is applied to a toy 2D dataset after implementing the two functions.
   - The algorithm runs iteratively, visualizing the progress at each iteration to demonstrate how K-means works effectively.
+
+
+## Assignment 5: Collaborative Filtering Recommender Systems
+
+This assignment introduces an implementation of collaborative filtering to build a recommender system for movies. The collaborative filtering algorithm aims to generate parameter vectors for users and feature vectors for movies, which, when combined with bias terms, provide estimates of user ratings for movies.
+
+1. **Notation**: Introduces the notation and mathematical concepts used in collaborative filtering.
+2. **Recommender Systems**: Explains the goal of collaborative filtering and how parameter vectors for users and movies are learned.
+3. **Movie Ratings Dataset**: Describes the movie ratings dataset used in the exercise, including its structure and key statistics.
+4. **Collaborative Filtering Learning Algorithm**: Implements the objective function for collaborative filtering, which involves computing the cost function and learning parameters \( X \), \( W \), and \( b \) using TensorFlow.
+5. **Learning Movie Recommendations**: Utilizes a custom TensorFlow training loop to train the collaborative filtering model and learn movie recommendations based on user ratings.
+6. **Recommendations**: Generates movie recommendations for users based on their preferences and the learned parameters.
